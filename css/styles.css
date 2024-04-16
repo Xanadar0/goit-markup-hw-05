@@ -14,7 +14,7 @@ a {
 button {
     cursor: pointer;
 }
-
+/* ============HEADER============ */
 .page-logo-color {
         color: #2e2f42;
 }
@@ -42,11 +42,19 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        font-style: normal;
+        color: #434455;
 
 }
+.contact-block {
+        font-style: normal;
+}
+
 .menu-link:hover,
 .contact-block-link:hover {
+        color: #404bbf;
+}
+.menu-link:focus,
+.contact-block-link:focus {
         color: #404bbf;
 }
 /* ============ HERO ============ */
@@ -95,7 +103,7 @@ button {
 .section-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -122,10 +130,10 @@ button {
 .our-portfolio-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        text-transform: capitalize
+        text-transform: capitalize;
 }
 
 .our-portfolio-list-text {
@@ -142,6 +150,7 @@ button {
 }
 
 .page-footer-logo {
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
