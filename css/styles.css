@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto",sans-serif ;
+    color:#434455 ;
+    background-color: #ffffff;
 }
 ul, 
 ol {
@@ -8,24 +10,23 @@ ol {
 
 a {
     text-decoration: none;
-    font-style: normal;
 }
 button {
     cursor: pointer;
 }
 
 .page-logo-color {
-        color: #4d5ae5;
+        color: #2e2f42;
 }
 
 .page-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
 }
 
 .menu-link {
@@ -41,18 +42,12 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        font-style: normal;
 
 }
 .menu-link:hover,
 .contact-block-link:hover {
         color: #404bbf;
-        
-
-}
-.menu-link:focus,
-.contact-block-link:focus {
-    color: #404bbf;
 }
 /* ============ HERO ============ */
 .hero {
@@ -61,7 +56,7 @@ button {
 .main-title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.1;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -75,16 +70,18 @@ button {
         background: #4d5ae5;
 }
 
-.order-now:hover {
+.order-now:hover,
+.order-now:focus {
         background: #404bbf;
 }
 /* ============BENEFITS============ */
 .benefits-list-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .benefits-list-text {
@@ -95,9 +92,6 @@ button {
         color: #434455;
 }
 /* ============OUR TEAM============ */
-.team {
-    background: #f4f4fd;
-}
 .section-title {
         font-weight: 700;
         font-size: 36px;
@@ -121,7 +115,6 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #434455;
 }
 
 /* ============OUR PORTFOLIO============ */
@@ -129,9 +122,10 @@ button {
 .our-portfolio-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .our-portfolio-list-text {
@@ -139,7 +133,6 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 /*  ============FOOTER============ */
@@ -147,20 +140,25 @@ button {
 .page-footer {
     background: #2e2f42;
 }
-.page-logo-footer-color {
+
+.page-footer-logo {
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
+}
+
+.page-footer-logo-color {
+    color: #f4f4fd;
 }
 
 
 .page-footer-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
