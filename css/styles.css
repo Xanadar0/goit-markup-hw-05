@@ -86,7 +86,7 @@ button {
 .benefits-list-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
@@ -100,6 +100,10 @@ button {
         color: #434455;
 }
 /* ============OUR TEAM============ */
+
+.team {
+background-color: #F4F4FD
+}
 .section-title {
         font-weight: 700;
         font-size: 36px;
@@ -107,6 +111,7 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .team-list-title {
         font-weight: 500;
@@ -123,6 +128,10 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
+
+}
+.team-list-item {
+        background-color: #FFFFFF
 }
 
 /* ============OUR PORTFOLIO============ */
