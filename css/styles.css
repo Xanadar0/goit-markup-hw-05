@@ -6,6 +6,9 @@ body {
 ul, 
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }  
 
 a {
@@ -14,11 +17,47 @@ a {
 button {
     cursor: pointer;
 }
-/* ============HEADER============ */
-.page-logo-color {
-        color: #2e2f42;
+
+ 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
+.container {
+        max-width: 1128px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+img {
+        display: block;
+}
+/* ============HEADER============ */
+
+
+.page-nav {
+        display: flex;
+        align-items: center;
+}
+
+.flex-container {
+        display: flex;
+        justify-content: space-between;
+}
+.menu {
+        display: flex;
+        column-gap: 40px;
+}
 .page-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -27,7 +66,19 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+
+        display: flex;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+        margin-right: 76px;
+
+
 }
+
+.page-logo-color {
+        color: #2e2f42;
+}
+
 
 .menu-link {
         font-weight: 500;
@@ -35,8 +86,13 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+         
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        
 }
-
+   
 .contact-block-link {
         font-weight: 400;
         font-size: 16px;
@@ -44,7 +100,18 @@ button {
         letter-spacing: 0.02em;
         color: #434455;
 
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+
 }
+
+.contact-block-list {
+        display: flex;
+        column-gap: 40px;
+}
+
 .contact-block {
         font-style: normal;
 }
@@ -60,6 +127,9 @@ button {
 /* ============ HERO ============ */
 .hero {
         background: #2e2f42;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
 }
 .main-title {
         font-weight: 700;
@@ -68,7 +138,19 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-}
+
+        box-sizing: content-box;
+        width: 496px;
+        height: 120px;
+        padding-top: 188px;
+        padding-left: 316px;
+        padding-right: 316px;
+        padding-bottom: 24px;
+}      
+.hero-container {
+        
+} 
+
 .order-now {
         font-weight: 500;
         font-size: 16px;
@@ -76,6 +158,14 @@ button {
         letter-spacing: 0.04em;
         color: #ffffff;
         background: #4d5ae5;
+
+        box-sizing: content-box;
+        width: 169px;
+        height: 56px;
+        margin-top: 24px;
+        margin-left: 480px;
+        margin-right: 480px;
+        margin-bottom: 188px;
 }
 
 .order-now:hover,
