@@ -132,11 +132,13 @@ img {
 .hero {
         background: #2e2f42;
         max-width: 1440px;
+        height: 600px;
         margin-right: auto;
         margin-left: auto;
         
 
 }
+
 .main-title {
         font-weight: 700;
         font-size: 56px;
@@ -145,14 +147,13 @@ img {
         text-align: center;
         color: #ffffff;
 
-        box-sizing: content-box;
-        width: 496px;
-        height: 120px;
         padding-top: 188px;
         padding-left: 316px;
         padding-right: 316px;
-        padding-bottom: 24px;
-}      
+        padding-bottom: 48px;
+
+
+}
 
 
 .order-now {
@@ -165,13 +166,16 @@ img {
 
         box-sizing: content-box;
         border-radius: 4px;
-        padding: 16px 32px;
         border: none;
         min-width: 169px;
         height: 56px;
+        padding: 0;
         margin-top: 24px;
-        margin-left: 480px;
-        margin-right: 480px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 188px;
+
 
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
@@ -194,6 +198,9 @@ img {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+}
+.benefits {
+        padding-top: 120px;
 }
 
 .benefits-list-title {
