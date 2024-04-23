@@ -48,7 +48,9 @@ img {
 }
 /* ============HEADER============ */
 
-
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
+}
 .page-nav {
         display: flex;
         align-items: center;
@@ -57,10 +59,11 @@ img {
 .flex-container {
         display: flex;
         justify-content: space-between;
+
 }
 .menu {
         display: flex;
-        column-gap: 40px;
+        gap: 40px;
 }
 .page-logo {
         font-family: "Raleway", sans-serif;
@@ -113,7 +116,7 @@ img {
 
 .contact-block-list {
         display: flex;
-        column-gap: 40px;
+        gap: 40px;
 }
 
 .contact-block {
@@ -135,10 +138,14 @@ img {
         height: 600px;
         margin-right: auto;
         margin-left: auto;
-        
-
 }
 
+.hero-box {
+        padding-top: 188px; 
+        padding-bottom: 120px;
+        padding-left: 316px;
+        padding-right: 316px;
+}
 .main-title {
         font-weight: 700;
         font-size: 56px;
@@ -146,13 +153,8 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-
-        padding-top: 188px;
-        padding-left: 316px;
-        padding-right: 316px;
-        padding-bottom: 48px;
-
-
+        max-width: 496px;
+        display: block;
 }
 
 
@@ -201,6 +203,7 @@ img {
 }
 .benefits {
         padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .benefits-list-title {
@@ -228,6 +231,9 @@ img {
         display: flex;
         gap: 24px; 
        
+}
+.benefits-list-item {
+        gap: 24px;
 }
 
 .benefits-list-item {
@@ -388,8 +394,9 @@ img {
 }
 
 .footer-box {
-        padding: 100px 0;
-        width: 264px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        max-width: 264px;
         margin-left: 156px;
 
 
