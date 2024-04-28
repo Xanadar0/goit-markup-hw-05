@@ -132,6 +132,19 @@ img {
 .contact-block-link:focus {
         color: #404bbf;
 }
+
+
+.menu-item .menu-link:hover::after{
+        content: '';
+        background-color: #404bbf;
+        color: #404bbf;
+        display: block;
+        border-radius: 2px;
+        width: 100%;
+        height: 4px;
+        margin-top: 20px;
+}
+
 /* ============ HERO ============ */
 .hero {
         background: #2e2f42;
@@ -142,6 +155,10 @@ img {
         padding-top: 188px; 
         padding-bottom: 188px;
         
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobackgroundphoto.jpg);
+        background-color: rgba(46, 47, 66, 0.7);
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
 .hero-box {
