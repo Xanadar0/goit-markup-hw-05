@@ -320,6 +320,12 @@ img {
         padding: 32px 0;
 }
 
+.team-social-links {
+        stroke: #404bbf;
+        display: flex;
+        
+
+}
 /* ============OUR PORTFOLIO============ */
 .header-our-portfolio {
         margin-bottom: 72px;
