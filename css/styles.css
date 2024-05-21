@@ -666,13 +666,16 @@ img {
 }
 
 .modal-form-box {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-review {
   margin-bottom: 16px;
 }
 
+.margin-botton-textarea {
+  margin-bottom: 16px;
+}
 .modal-input-icon {
   position: absolute;
   top: 50%;
